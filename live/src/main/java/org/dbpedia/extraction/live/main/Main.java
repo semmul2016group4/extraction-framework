@@ -4,6 +4,7 @@ package org.dbpedia.extraction.live.main;
 import org.dbpedia.extraction.live.core.LiveOptions;
 import org.dbpedia.extraction.live.feeder.Feeder;
 import org.dbpedia.extraction.live.feeder.DummyFeeder;
+import org.dbpedia.extraction.live.feeder.RCStreamFeeder;
 import org.dbpedia.extraction.live.publisher.DiffData;
 import org.dbpedia.extraction.live.queue.LiveQueue;
 import org.dbpedia.extraction.live.queue.LiveQueuePriority;
@@ -61,6 +62,7 @@ public class Main {
             //    LiveOptions.options.get("mappingsOAIUri"), LiveOptions.options.get("mappingsBaseWikiUri"), LiveOptions.options.get("mappingsOaiPrefix"),
             //    pollInterval, sleepInterval, LiveOptions.options.get("uploaded_dump_date"),
             //   LiveOptions.options.get("working_directory")));
+            //feeders.add(new RCStreamFeeder("RCStreamFeeder", LiveQueuePriority.LivePriority, null, "./tmp", "en.wikipedia.org"));
             feeders.add(new DummyFeeder("DummyFeeder", LiveQueuePriority.LivePriority, null, "./tmp"));
         }
 
