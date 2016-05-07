@@ -599,12 +599,12 @@
         {{PropertyMapping | templateProperty = durée | ontologyProperty = runtime | unit = Time}}
         {{PropertyMapping | templateProperty = licence_original | ontologyProperty = license}}
         {{PropertyMapping | templateProperty = licence_francophone | ontologyProperty = license}}
-}}</text></revision></page><page><title>Mapping fr:Infobox Appareil photo numérique</title><ns>210</ns><id>6552</id><revision><id>24169</id><timestamp>2013-03-01T15:22:22Z</timestamp><text>{{TemplateMapping
+}}</text></revision></page><page><title>Mapping fr:Infobox Appareil photo numérique</title><ns>210</ns><id>6552</id><revision><id>50312</id><timestamp>2016-01-27T10:14:21Z</timestamp><text>{{TemplateMapping
 | mapToClass = DigitalCamera
 | mappings =
 	{{PropertyMapping | templateProperty = nom | ontologyProperty = foaf:name }}
-	{{PropertyMapping | templateProperty = fabriquant | ontologyProperty = manufacturer }}
 	{{PropertyMapping | templateProperty = poids | ontologyProperty = weight | unit = gram }}
+	{{PropertyMapping | templateProperty = nombre_pixels | ontologyProperty = numberOfPixels }}
 }}</text></revision></page><page><title>Mapping fr:Infobox Arbitre</title><ns>210</ns><id>6340</id><revision><id>27167</id><timestamp>2013-07-08T14:49:57Z</timestamp><text>{{TemplateMapping
 | mapToClass = Referee
 | mappings =

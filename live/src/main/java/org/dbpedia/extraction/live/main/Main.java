@@ -2,7 +2,8 @@ package org.dbpedia.extraction.live.main;
 
 
 import org.dbpedia.extraction.live.core.LiveOptions;
-import org.dbpedia.extraction.live.feeder.*;
+import org.dbpedia.extraction.live.feeder.Feeder;
+import org.dbpedia.extraction.live.feeder.DummyFeeder;
 import org.dbpedia.extraction.live.publisher.DiffData;
 import org.dbpedia.extraction.live.queue.LiveQueue;
 import org.dbpedia.extraction.live.queue.LiveQueuePriority;
@@ -151,7 +152,7 @@ public class Main {
                 }
             }
         });
-        System.out.println(new File("pw.txt").getAbsolutePath());
+
         authenticate("dbpedia", Files.readFile(new File("pw.txt")).trim());
 
         initLive();
