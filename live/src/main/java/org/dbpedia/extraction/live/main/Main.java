@@ -2,10 +2,7 @@ package org.dbpedia.extraction.live.main;
 
 
 import org.dbpedia.extraction.live.core.LiveOptions;
-import org.dbpedia.extraction.live.feeder.Feeder;
-import org.dbpedia.extraction.live.feeder.OAIFeeder;
-import org.dbpedia.extraction.live.feeder.OAIFeederMappings;
-import org.dbpedia.extraction.live.feeder.UnmodifiedFeeder;
+import org.dbpedia.extraction.live.feeder.*;
 import org.dbpedia.extraction.live.publisher.DiffData;
 import org.dbpedia.extraction.live.queue.LiveQueue;
 import org.dbpedia.extraction.live.queue.LiveQueuePriority;
@@ -59,30 +56,31 @@ public class Main {
         if (Boolean.parseBoolean(LiveOptions.options.get("feeder.mappings.enabled")) == true) {
             long pollInterval = Long.parseLong(LiveOptions.options.get("feeder.mappings.pollInterval"));
             long sleepInterval = Long.parseLong(LiveOptions.options.get("feeder.mappings.sleepInterval"));
-            feeders .add( new OAIFeederMappings("FeederMappings", LiveQueuePriority.MappingPriority,
-                LiveOptions.options.get("mappingsOAIUri"), LiveOptions.options.get("mappingsBaseWikiUri"), LiveOptions.options.get("mappingsOaiPrefix"),
-                pollInterval, sleepInterval, LiveOptions.options.get("uploaded_dump_date"),
-                LiveOptions.options.get("working_directory")));
+            //feeders .add( new OAIFeederMappings("FeederMappings", LiveQueuePriority.MappingPriority,
+            //    LiveOptions.options.get("mappingsOAIUri"), LiveOptions.options.get("mappingsBaseWikiUri"), LiveOptions.options.get("mappingsOaiPrefix"),
+            //    pollInterval, sleepInterval, LiveOptions.options.get("uploaded_dump_date"),
+            //   LiveOptions.options.get("working_directory")));
+            feeders.add(new DummyFeeder("DummyFeeder", LiveQueuePriority.LivePriority, null, "./tmp"));
         }
 
-        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.live.enabled")) == true) {
-            long pollInterval = Long.parseLong(LiveOptions.options.get("feeder.live.pollInterval"));
-            long sleepInterval = Long.parseLong(LiveOptions.options.get("feeder.live.sleepInterval"));
-            feeders .add( new OAIFeeder("FeederLive", LiveQueuePriority.LivePriority,
-                LiveOptions.options.get("oaiUri"), LiveOptions.options.get("baseWikiUri"), LiveOptions.options.get("oaiPrefix"),
-                pollInterval, sleepInterval, LiveOptions.options.get("uploaded_dump_date"),
-                LiveOptions.options.get("working_directory")));
-        }
-
-        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.unmodified.enabled")) == true) {
-            int minDaysAgo = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.minDaysAgo"));
-            int chunk = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.chunk"));
-            int threshold = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.threshold"));
-            long sleepTime = Long.parseLong(LiveOptions.options.get("feeder.unmodified.sleepTime"));
-            feeders .add( new UnmodifiedFeeder("FeederUnmodified", LiveQueuePriority.UnmodifiedPagePriority,
-                minDaysAgo, chunk, threshold, sleepTime,
-                LiveOptions.options.get("uploaded_dump_date"), LiveOptions.options.get("working_directory")));
-        }
+//        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.live.enabled")) == true) {
+//            long pollInterval = Long.parseLong(LiveOptions.options.get("feeder.live.pollInterval"));
+//            long sleepInterval = Long.parseLong(LiveOptions.options.get("feeder.live.sleepInterval"));
+//            feeders .add( new OAIFeeder("FeederLive", LiveQueuePriority.LivePriority,
+//                LiveOptions.options.get("oaiUri"), LiveOptions.options.get("baseWikiUri"), LiveOptions.options.get("oaiPrefix"),
+//                pollInterval, sleepInterval, LiveOptions.options.get("uploaded_dump_date"),
+//                LiveOptions.options.get("working_directory")));
+//        }
+//
+//        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.unmodified.enabled")) == true) {
+//            int minDaysAgo = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.minDaysAgo"));
+//            int chunk = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.chunk"));
+//            int threshold = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.threshold"));
+//            long sleepTime = Long.parseLong(LiveOptions.options.get("feeder.unmodified.sleepTime"));
+//            feeders .add( new UnmodifiedFeeder("FeederUnmodified", LiveQueuePriority.UnmodifiedPagePriority,
+//                minDaysAgo, chunk, threshold, sleepTime,
+//                LiveOptions.options.get("uploaded_dump_date"), LiveOptions.options.get("working_directory")));
+//        }
 
         int threads = Integer.parseInt(LiveOptions.options.get("ProcessingThreads"));
         for (int i=0; i < threads ; i++){
@@ -153,7 +151,7 @@ public class Main {
                 }
             }
         });
-
+        System.out.println(new File("pw.txt").getAbsolutePath());
         authenticate("dbpedia", Files.readFile(new File("pw.txt")).trim());
 
         initLive();
