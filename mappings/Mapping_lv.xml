@@ -1,8 +1,57 @@
-<?xml version="1.0" encoding="UTF-8"?><mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/"><page><title>Mapping lv:Administratīvā iedalījuma vienības infokaste</title><ns>332</ns><id>11612</id><revision><id>50673</id><timestamp>2016-04-07T07:00:35Z</timestamp><text>{{TemplateMapping | mapToClass = AdministrativeRegion
+<?xml version="1.0" encoding="UTF-8"?><mediawiki xmlns="http://www.mediawiki.org/xml/export-0.8/"><page><title>Mapping lv:Administratīvā iedalījuma vienības infokaste</title><ns>332</ns><id>11612</id><revision><id>51045</id><timestamp>2016-05-07T21:12:15Z</timestamp><text>{{TemplateMapping | mapToClass = AdministrativeRegion
 | mappings = 
 	{{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
+    {{ PropertyMapping | templateProperty = official_name 	| ontologyProperty = foaf:name }}
+}}
 
-}}</text></revision></page><page><title>Mapping lv:Aizsargājamas dabas teritorijas infokaste</title><ns>332</ns><id>11678</id><revision><id>51038</id><timestamp>2016-05-04T21:26:14Z</timestamp><text>{{ TemplateMapping | mapToClass = ProtectedArea | mappings = 
+&lt;!-- NOT YET MAPPED
+
+    {{ PropertyMapping | templateProperty = other_name 	| ontologyProperty = p1 }}
+    {{ PropertyMapping | templateProperty = type 	| ontologyProperty = p2 }}
+    {{ PropertyMapping | templateProperty = image_skyline 	| ontologyProperty = p3 }}
+    {{ PropertyMapping | templateProperty = imagesize 	| ontologyProperty = p4 }}
+    {{ PropertyMapping | templateProperty = image_caption 	| ontologyProperty = p5 }}
+    {{ PropertyMapping | templateProperty = image_flag 	| ontologyProperty = p6 }}
+    {{ PropertyMapping | templateProperty = flag_size 	| ontologyProperty = p7 }}
+    {{ PropertyMapping | templateProperty = image_seal 	| ontologyProperty = p8 }}
+    {{ PropertyMapping | templateProperty = seal_size 	| ontologyProperty = p9 }}
+    {{ PropertyMapping | templateProperty = nickname 	| ontologyProperty = p10 }}
+    {{ PropertyMapping | templateProperty = motto 	| ontologyProperty = p11 }}
+    {{ PropertyMapping | templateProperty = anthem 	| ontologyProperty = p12 }}
+    {{ PropertyMapping | templateProperty = capital 	| ontologyProperty = p13 }}
+    {{ PropertyMapping | templateProperty = largest_city 	| ontologyProperty = p14 }}
+    {{ PropertyMapping | templateProperty = official_language 	| ontologyProperty = p15 }}
+    {{ PropertyMapping | templateProperty = spoken_language 	| ontologyProperty = p16 }}
+    {{ PropertyMapping | templateProperty = image_map 	| ontologyProperty = p17 }}
+    {{ PropertyMapping | templateProperty = mapsize 	| ontologyProperty = p18 }}
+    {{ PropertyMapping | templateProperty = map_caption 	| ontologyProperty = p19 }}
+    {{ PropertyMapping | templateProperty = subdivision_type 	| ontologyProperty = p20 }}
+    {{ PropertyMapping | templateProperty = subdivision_name 	| ontologyProperty = p21 }}
+    {{ PropertyMapping | templateProperty = leader_party 	| ontologyProperty = p22 }}
+    {{ PropertyMapping | templateProperty = leader_title 	| ontologyProperty = p23 }}
+    {{ PropertyMapping | templateProperty = leader_name 	| ontologyProperty = p24 }}
+    {{ PropertyMapping | templateProperty = area_footnotes 	| ontologyProperty = p25 }}
+    {{ PropertyMapping | templateProperty = area_magnitude 	| ontologyProperty = p26 }}
+    {{ PropertyMapping | templateProperty = area_total_km2 	| ontologyProperty = p27 }}
+    {{ PropertyMapping | templateProperty = area_land_km2 	| ontologyProperty = p28 }}
+    {{ PropertyMapping | templateProperty = area_water_km2 	| ontologyProperty = p29 }}
+    {{ PropertyMapping | templateProperty = area_water_percent 	| ontologyProperty = p30 }}
+    {{ PropertyMapping | templateProperty = area_rank 	| ontologyProperty = p31 }}
+    {{ PropertyMapping | templateProperty = elevation_max_m 	| ontologyProperty = p32 }}
+    {{ PropertyMapping | templateProperty = population_footnotes 	| ontologyProperty = p33 }}
+    {{ PropertyMapping | templateProperty = population_total 	| ontologyProperty = p34 }}
+    {{ PropertyMapping | templateProperty = population_as_of 	| ontologyProperty = p35 }}
+    {{ PropertyMapping | templateProperty = population_rank 	| ontologyProperty = p36 }}
+    {{ PropertyMapping | templateProperty = population_density_km2 	| ontologyProperty = p37 }}
+    {{ PropertyMapping | templateProperty = population_blank1_title 	| ontologyProperty = p38 }}
+    {{ PropertyMapping | templateProperty = population_blank1 	| ontologyProperty = p39 }}
+    {{ PropertyMapping | templateProperty = population_blank2_title 	| ontologyProperty = p40 }}
+    {{ PropertyMapping | templateProperty = population_blank2 	| ontologyProperty = p41 }}
+    {{ PropertyMapping | templateProperty = timezone 	| ontologyProperty = p42 }}
+    {{ PropertyMapping | templateProperty = utc_offset 	| ontologyProperty = p43 }}
+    {{ PropertyMapping | templateProperty = website 	| ontologyProperty = p44 }}
+    {{ PropertyMapping | templateProperty = footnotes 	| ontologyProperty = p45 }}
+--&gt;</text></revision></page><page><title>Mapping lv:Aizsargājamas dabas teritorijas infokaste</title><ns>332</ns><id>11678</id><revision><id>51038</id><timestamp>2016-05-04T21:26:14Z</timestamp><text>{{ TemplateMapping | mapToClass = ProtectedArea | mappings = 
 
     {{ PropertyMapping | templateProperty = name 	| ontologyProperty = foaf:name }}
 
@@ -36,9 +85,85 @@
     {{ PropertyMapping | templateProperty = website 	| ontologyProperty = p24 }}
     {{ PropertyMapping | templateProperty = footnotes 	| ontologyProperty = p25 }}
     {{ PropertyMapping | templateProperty = embedded 	| ontologyProperty = p26 }}
---&gt;</text></revision></page><page><title>Mapping lv:Aktiera infokaste</title><ns>332</ns><id>11436</id><revision><id>49510</id><timestamp>2015-11-08T11:21:11Z</timestamp><text>{{ TemplateMapping | mapToClass = Artist|
-}}</text></revision></page><page><title>Mapping lv:Albuma infokaste</title><ns>332</ns><id>11435</id><revision><id>49509</id><timestamp>2015-11-08T11:12:51Z</timestamp><text>{{TemplateMapping | mapToClass = Album
-}}</text></revision></page><page><title>Mapping lv:Apdzīvotas vietas infokaste</title><ns>332</ns><id>11423</id><revision><id>49429</id><timestamp>2015-11-02T15:38:24Z</timestamp><text>{{TemplateMapping | mapToClass = Settlement
+--&gt;</text></revision></page><page><title>Mapping lv:Aktiera infokaste</title><ns>332</ns><id>11436</id><revision><id>51040</id><timestamp>2016-05-07T20:31:45Z</timestamp><text>{{ TemplateMapping | mapToClass = Artist | mappings =
+    {{ PropertyMapping | templateProperty = vārds 	| ontologyProperty = foaf:name }}
+    {{ PropertyMapping | templateProperty = vārds_orig 	| ontologyProperty = foaf:name }}
+}}
+
+&lt;!-- NOT YET MAPPED
+    {{ PropertyMapping | templateProperty = attēls 	| ontologyProperty = p0 }}
+    {{ PropertyMapping | templateProperty = att_izmērs 	| ontologyProperty = p1 }}
+    {{ PropertyMapping | templateProperty = komentārs 	| ontologyProperty = p2 }}
+    {{ PropertyMapping | templateProperty = dz vārds 	| ontologyProperty = p3 }}
+    {{ PropertyMapping | templateProperty = dz datums 	| ontologyProperty = p4 }}
+    {{ PropertyMapping | templateProperty = dz vieta 	| ontologyProperty = p5 }}
+    {{ PropertyMapping | templateProperty = mirš datums 	| ontologyProperty = p6 }}
+    {{ PropertyMapping | templateProperty = mirš vieta 	| ontologyProperty = p7 }}
+    {{ PropertyMapping | templateProperty = citi vārdi 	| ontologyProperty = p8 }}
+    {{ PropertyMapping | templateProperty = nodarbošanās 	| ontologyProperty = p9 }}
+    {{ PropertyMapping | templateProperty = darbības gadi 	| ontologyProperty = p10 }}
+    {{ PropertyMapping | templateProperty = vecāki 	| ontologyProperty = p11 }}
+    {{ PropertyMapping | templateProperty = brāļi 	| ontologyProperty = p12 }}
+    {{ PropertyMapping | templateProperty = māsas 	| ontologyProperty = p13 }}
+    {{ PropertyMapping | templateProperty = dzīvesbiedrs 	| ontologyProperty = p14 }}
+    {{ PropertyMapping | templateProperty = bērni 	| ontologyProperty = p15 }}
+    {{ PropertyMapping | templateProperty = mājaslapa 	| ontologyProperty = p16 }}
+    {{ PropertyMapping | templateProperty = paraksts 	| ontologyProperty = p17 }}
+    {{ PropertyMapping | templateProperty = paraksts_izm 	| ontologyProperty = p18 }}
+    {{ PropertyMapping | templateProperty = akadēmijasbalva 	| ontologyProperty = p19 }}
+    {{ PropertyMapping | templateProperty = afibalva 	| ontologyProperty = p20 }}
+    {{ PropertyMapping | templateProperty = arielabalva 	| ontologyProperty = p21 }}
+    {{ PropertyMapping | templateProperty = BFTMAbalva 	| ontologyProperty = p22 }}
+    {{ PropertyMapping | templateProperty = cēzarabalva 	| ontologyProperty = p23 }}
+    {{ PropertyMapping | templateProperty = emibalva 	| ontologyProperty = p24 }}
+    {{ PropertyMapping | templateProperty = filmfarebalva 	| ontologyProperty = p25 }}
+    {{ PropertyMapping | templateProperty = geminibalva 	| ontologyProperty = p26 }}
+    {{ PropertyMapping | templateProperty = zeltapalmaszars 	| ontologyProperty = p27 }}
+    {{ PropertyMapping | templateProperty = zeltateļabalva 	| ontologyProperty = p28 }}
+    {{ PropertyMapping | templateProperty = zeltaglobusabalva 	| ontologyProperty = p29 }}
+    {{ PropertyMapping | templateProperty = zeltaavenesbalva 	| ontologyProperty = p30 }}
+    {{ PropertyMapping | templateProperty = gojasbalva 	| ontologyProperty = p31 }}
+    {{ PropertyMapping | templateProperty = gremībalva 	| ontologyProperty = p32 }}
+    {{ PropertyMapping | templateProperty = iftbalva 	| ontologyProperty = p33 }}
+    {{ PropertyMapping | templateProperty = lorensaolivjēbalva 	| ontologyProperty = p34 }}
+    {{ PropertyMapping | templateProperty = NAACPbalva 	| ontologyProperty = p35 }}
+    {{ PropertyMapping | templateProperty = nacionālāsfilmasbalva 	| ontologyProperty = p36 }}
+    {{ PropertyMapping | templateProperty = SAGbalva 	| ontologyProperty = p37 }}
+    {{ PropertyMapping | templateProperty = tonijasbalva 	| ontologyProperty = p38 }}
+    {{ PropertyMapping | templateProperty = spēlmaņu_nakts 	| ontologyProperty = p39 }}
+    {{ PropertyMapping | templateProperty = kristaps 	| ontologyProperty = p40 }}
+    {{ PropertyMapping | templateProperty = apbalvojumi 	| ontologyProperty = p41 }}
+    {{ PropertyMapping | templateProperty = dzimums 	| ontologyProperty = p42 }}
+--&gt;</text></revision></page><page><title>Mapping lv:Albuma infokaste</title><ns>332</ns><id>11435</id><revision><id>51041</id><timestamp>2016-05-07T20:45:19Z</timestamp><text>{{TemplateMapping | mapToClass = Album | mappings = 
+
+    {{ PropertyMapping | templateProperty = Nosaukums 	| ontologyProperty = foaf:name }}
+    {{ PropertyMapping | templateProperty = Garums 	| ontologyProperty = runtime | unit = minute }}
+    {{ PropertyMapping | templateProperty = Žanrs 	| ontologyProperty = genre }}
+    {{ PropertyMapping | templateProperty = Izpildītājs 	| ontologyProperty = artist }}
+    {{ PropertyMapping | templateProperty = Izdots 	| ontologyProperty = releaseDate }}
+    {{ PropertyMapping | templateProperty = Ierakstu kompānija 	| ontologyProperty = recordLabel }}
+    {{ PropertyMapping | templateProperty = Ierakstīts 	| ontologyProperty = recordDate }}
+
+    {{ PropertyMapping | templateProperty = Iepriekšējais albums 	| ontologyProperty = previousWork }}
+    {{ PropertyMapping | templateProperty = Nākamais albums 	| ontologyProperty = subsequentWork }}
+
+}}
+
+&lt;!-- NOT YET MAPPED
+
+    {{ PropertyMapping | templateProperty = Vāks 	| ontologyProperty = p1 }}
+    {{ PropertyMapping | templateProperty = Background 	| ontologyProperty = p2 }}
+
+
+
+
+
+    {{ PropertyMapping | templateProperty = Producents 	| ontologyProperty = p8 }}
+    {{ PropertyMapping | templateProperty = Izpildītājsģen 	| ontologyProperty = p9 }}
+
+    {{ PropertyMapping | templateProperty = Šis albums 	| ontologyProperty = p11 }}
+
+--&gt;</text></revision></page><page><title>Mapping lv:Apdzīvotas vietas infokaste</title><ns>332</ns><id>11423</id><revision><id>49429</id><timestamp>2015-11-02T15:38:24Z</timestamp><text>{{TemplateMapping | mapToClass = Settlement
 | mappings = 
 
     {{ PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
@@ -1066,16 +1191,40 @@
     {{ PropertyMapping | templateProperty = oclc 	| ontologyProperty = p22 }}
     {{ PropertyMapping | templateProperty = pec 	| ontologyProperty = p23 }}
     {{ PropertyMapping | templateProperty = pirms 	| ontologyProperty = p24 }}
---&gt;</text></revision></page><page><title>Mapping lv:Hokeja kluba infokaste</title><ns>332</ns><id>11667</id><revision><id>51026</id><timestamp>2016-05-04T21:25:04Z</timestamp><text>{{ TemplateMapping | mapToClass = HockeyTeam | mappings = 
+--&gt;</text></revision></page><page><title>Mapping lv:Grāmatas infokaste v2</title><ns>332</ns><id>11681</id><revision><id>51053</id><timestamp>2016-05-08T08:23:50Z</timestamp><text>{{TemplateMapping
+| mapToClass = Book
+| mappings = 
+ {{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
+ {{PropertyMapping | templateProperty = title_orig | ontologyProperty = foaf:name }}
+ {{PropertyMapping | templateProperty = translator | ontologyProperty = translator }}
+ {{PropertyMapping | templateProperty = author | ontologyProperty = author }}
+ {{PropertyMapping | templateProperty = illustrator | ontologyProperty = illustrator }}
+ {{PropertyMapping | templateProperty = cover_artist | ontologyProperty = coverArtist }}
+ {{PropertyMapping | templateProperty = country | ontologyProperty = country }}
+ {{PropertyMapping | templateProperty = language | ontologyProperty = language }}
+ {{PropertyMapping | templateProperty = series | ontologyProperty = series }}
+ {{PropertyMapping | templateProperty = subject | ontologyProperty = nonFictionSubject }}
+ {{PropertyMapping | templateProperty = genre | ontologyProperty = literaryGenre }}
+ {{PropertyMapping | templateProperty = release_date | ontologyProperty = releaseDate }}
+ &lt;!-- use dc:publisher instead --&gt;
+ {{PropertyMapping | templateProperty = publisher | ontologyProperty = publisher }}
+ {{PropertyMapping | templateProperty = pub_date | ontologyProperty = publicationDate }}
+ {{PropertyMapping | templateProperty = media_type | ontologyProperty = mediaType }}
+ {{PropertyMapping | templateProperty = pages | ontologyProperty = numberOfPages }}
+ {{PropertyMapping | templateProperty = isbn | ontologyProperty = isbn }}
+ {{PropertyMapping | templateProperty = oclc | ontologyProperty = oclc }}
+ {{PropertyMapping | templateProperty = preceded_by | ontologyProperty = previousWork }}
+ {{PropertyMapping | templateProperty = followed_by | ontologyProperty = subsequentWork }}
+}}</text></revision></page><page><title>Mapping lv:Hokeja kluba infokaste</title><ns>332</ns><id>11667</id><revision><id>51043</id><timestamp>2016-05-07T20:51:51Z</timestamp><text>{{ TemplateMapping | mapToClass = HockeyTeam | mappings = 
 
-
+    {{ PropertyMapping | templateProperty = team 	| ontologyProperty = foaf:name }}
 
 }}
 
 &lt;!-- NOT YET MAPPED
     {{ PropertyMapping | templateProperty = text_color 	| ontologyProperty = p0 }}
     {{ PropertyMapping | templateProperty = bg_color 	| ontologyProperty = p1 }}
-    {{ PropertyMapping | templateProperty = team 	| ontologyProperty = p2 }}
+
     {{ PropertyMapping | templateProperty = logo 	| ontologyProperty = p3 }}
     {{ PropertyMapping | templateProperty = logosize 	| ontologyProperty = p4 }}
     {{ PropertyMapping | templateProperty = city 	| ontologyProperty = p5 }}
@@ -1698,6 +1847,16 @@
 	&lt;!-- {{ PropertyMapping | templateProperty = ienākumi | ontologyProperty = }} --&gt;
 	&lt;!-- {{ PropertyMapping | templateProperty = paraksts_plat | ontologyProperty = }} --&gt;
 	&lt;!-- {{ PropertyMapping | templateProperty = reliģija | ontologyProperty = }} --&gt;
+}}</text></revision></page><page><title>Mapping lv:Pieminekļa infokaste</title><ns>332</ns><id>11683</id><revision><id>51057</id><timestamp>2016-05-08T20:19:44Z</timestamp><text>{{ TemplateMapping 
+ | mapToClass = Monument
+ | mappings = 
+
+        {{ PropertyMapping | templateProperty = monument_name | ontologyProperty = foaf:name }}
+        {{ PropertyMapping | templateProperty = designer | ontologyProperty = designer }}
+
+{{GeocoordinatesMapping 
+    | latitudeDirection = latNS | latitudeDegrees = latd | latitudeMinutes = latm | latitudeSeconds = lats 
+    | longitudeDirection = longEW | longitudeDegrees = longd | longitudeMinutes = longm | longitudeSeconds = longs }}
 }}</text></revision></page><page><title>Mapping lv:Planētas infokaste</title><ns>332</ns><id>11677</id><revision><id>51037</id><timestamp>2016-05-04T21:26:08Z</timestamp><text>{{ TemplateMapping | mapToClass = Planet | mappings = 
 
     {{ PropertyMapping | templateProperty = name 	| ontologyProperty = foaf:name }}
@@ -1765,7 +1924,33 @@
     {{ PropertyMapping | templateProperty = language 	| ontologyProperty = p23 }}
     {{ PropertyMapping | templateProperty = website 	| ontologyProperty = p24 }}
     {{ PropertyMapping | templateProperty = issn 	| ontologyProperty = p25 }}
---&gt;</text></revision></page><page><title>Mapping lv:Rakstnieka infokaste</title><ns>332</ns><id>11338</id><revision><id>50996</id><timestamp>2016-05-01T15:47:19Z</timestamp><text>{{ TemplateMapping | mapToClass = Writer | mappings = 
+--&gt;</text></revision></page><page><title>Mapping lv:Programmatūras infokaste</title><ns>332</ns><id>11679</id><revision><id>51047</id><timestamp>2016-05-08T08:06:36Z</timestamp><text>{{TemplateMapping
+| mapToClass = Software
+| mappings =
+	{{PropertyMapping | templateProperty = developer | ontologyProperty = developer }}
+	{{PropertyMapping | templateProperty = latest release version | ontologyProperty = latestReleaseVersion }}
+        {{PropertyMapping | templateProperty = latest_release_version | ontologyProperty = latestReleaseVersion }}
+	{{PropertyMapping | templateProperty = latest release date | ontologyProperty = latestReleaseDate | select = first}}
+        {{PropertyMapping | templateProperty = latest_release_date | ontologyProperty = latestReleaseDate | select = first}}
+	{{PropertyMapping | templateProperty = latest preview version | ontologyProperty = latestPreviewVersion }}
+        {{PropertyMapping | templateProperty = latest_preview_version | ontologyProperty = latestPreviewVersion }}
+	{{PropertyMapping | templateProperty = latest preview date | ontologyProperty = latestPreviewDate }}
+	{{PropertyMapping | templateProperty = frequently updated | ontologyProperty = frequentlyUpdated }}
+	{{PropertyMapping | templateProperty = frequently_updated | ontologyProperty = frequentlyUpdated }}
+	{{PropertyMapping | templateProperty = programming language | ontologyProperty = programmingLanguage }}
+	{{PropertyMapping | templateProperty = operating system | ontologyProperty = operatingSystem }}
+	{{PropertyMapping | templateProperty = operating_system | ontologyProperty = operatingSystem }}
+	{{PropertyMapping | templateProperty = platform | ontologyProperty = computingPlatform }}
+	{{PropertyMapping | templateProperty = size | ontologyProperty = fileSize | unit = megabyte }}
+	{{PropertyMapping | templateProperty = status | ontologyProperty = status }}
+	{{PropertyMapping | templateProperty = license | ontologyProperty = license }}
+	{{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = author | ontologyProperty = author }}
+	{{PropertyMapping | templateProperty = released | ontologyProperty = releaseDate }}
+	{{PropertyMapping | templateProperty = language | ontologyProperty = language }}
+	{{PropertyMapping | templateProperty = genre | ontologyProperty = genre }}
+	{{PropertyMapping | templateProperty = website | ontologyProperty = foaf:homepage }}
+}}</text></revision></page><page><title>Mapping lv:Rakstnieka infokaste</title><ns>332</ns><id>11338</id><revision><id>50996</id><timestamp>2016-05-01T15:47:19Z</timestamp><text>{{ TemplateMapping | mapToClass = Writer | mappings = 
     {{ PropertyMapping | templateProperty = vārds 	| ontologyProperty = foaf:name }}
     {{ PropertyMapping | templateProperty = dzīvesbiedrs 	| ontologyProperty = spouse }}
     {{ PropertyMapping | templateProperty = tautība 	| ontologyProperty = nationality }}
@@ -1776,15 +1961,14 @@
     {{ PropertyMapping | templateProperty = apbalvojumi 	| ontologyProperty = award }}
     {{ PropertyMapping | templateProperty = alma_mater 	| ontologyProperty = almaMater }}
     {{ PropertyMapping | templateProperty = dz_gads 	| ontologyProperty = birthYear }}
-}}</text></revision></page><page><title>Mapping lv:Reliģiskas ēkas infokaste</title><ns>332</ns><id>11656</id><revision><id>51015</id><timestamp>2016-05-04T21:23:58Z</timestamp><text>{{ TemplateMapping | mapToClass = ReligiousBuilding | mappings = 
+}}</text></revision></page><page><title>Mapping lv:Reliģiskas ēkas infokaste</title><ns>332</ns><id>11656</id><revision><id>51042</id><timestamp>2016-05-07T20:50:54Z</timestamp><text>{{ TemplateMapping | mapToClass = ReligiousBuilding | mappings = 
 
-
+    {{ PropertyMapping | templateProperty = building_name 	| ontologyProperty = foaf:name }}
+    {{ PropertyMapping | templateProperty = native_name 	| ontologyProperty = foaf:name }}
 
 }}
 
 &lt;!-- NOT YET MAPPED
-    {{ PropertyMapping | templateProperty = building_name 	| ontologyProperty = p0 }}
-    {{ PropertyMapping | templateProperty = native_name 	| ontologyProperty = p1 }}
     {{ PropertyMapping | templateProperty = image 	| ontologyProperty = p2 }}
     {{ PropertyMapping | templateProperty = image_size 	| ontologyProperty = p3 }}
     {{ PropertyMapping | templateProperty = alt 	| ontologyProperty = p4 }}
@@ -2150,7 +2334,107 @@
     {{ PropertyMapping | templateProperty = rādīt_medaļas 	| ontologyProperty = p49 }}
     {{ PropertyMapping | templateProperty = headercolor 	| ontologyProperty = p50 }}
     {{ PropertyMapping | templateProperty = medaltemplates 	| ontologyProperty = p51 }}
---&gt;</text></revision></page><page><title>Mapping lv:Upes infokaste</title><ns>332</ns><id>11632</id><revision><id>50979</id><timestamp>2016-04-30T22:40:24Z</timestamp><text>{{TemplateMapping
+--&gt;</text></revision></page><page><title>Mapping lv:Transporta maršruta infokaste</title><ns>332</ns><id>11685</id><revision><id>51061</id><timestamp>2016-05-08T21:00:12Z</timestamp><text>{{ TemplateMapping | mapToClass = RouteOfTransportation | mappings = 
+
+    {{ PropertyMapping | templateProperty = nosaukums 	| ontologyProperty = foaf:name }}
+
+    {{ PropertyMapping | templateProperty = no 	| ontologyProperty = routeStart }}
+    {{ PropertyMapping | templateProperty = uz 	| ontologyProperty = routeEnd }}
+
+    {{ PropertyMapping | templateProperty = kopējais garums 	| ontologyProperty = lineLength }}
+    {{ PropertyMapping | templateProperty = staciju skaits 	| ontologyProperty = numberOfStations }}
+    {{ PropertyMapping | templateProperty = pieturu skaits 	| ontologyProperty = numberOfStations }}
+
+    {{ PropertyMapping | templateProperty = valsts 	| ontologyProperty = country }}
+    {{ PropertyMapping | templateProperty = pilsēta 	| ontologyProperty = city }}
+
+}}
+
+&lt;!-- NOT YET MAPPED
+
+    {{ PropertyMapping | templateProperty = karte 	| ontologyProperty = p3 }}
+    {{ PropertyMapping | templateProperty = karte_izm 	| ontologyProperty = p4 }}
+
+    {{ PropertyMapping | templateProperty = atklāts 	| ontologyProperty = p7 }}
+    {{ PropertyMapping | templateProperty = plānots atklāt 	| ontologyProperty = p8 }}
+    {{ PropertyMapping | templateProperty = tika plān atklāt 	| ontologyProperty = p9 }}
+    {{ PropertyMapping | templateProperty = slēgts 	| ontologyProperty = p10 }}
+    {{ PropertyMapping | templateProperty = izmaksas 	| ontologyProperty = p11 }}
+
+    {{ PropertyMapping | templateProperty = transporta vienīb 	| ontologyProperty = p15 }}
+    {{ PropertyMapping | templateProperty = apkalpo 	| ontologyProperty = p16 }}
+    {{ PropertyMapping | templateProperty = depo 	| ontologyProperty = p17 }}
+    {{ PropertyMapping | templateProperty = parks 	| ontologyProperty = p18 }}
+    {{ PropertyMapping | templateProperty = pasažieri dienā 	| ontologyProperty = p19 }}
+    {{ PropertyMapping | templateProperty = pasažieri gadā 	| ontologyProperty = p20 }}
+    {{ PropertyMapping | templateProperty = mājas lapa 	| ontologyProperty = p21 }}
+    {{ PropertyMapping | templateProperty = apakšveidne 	| ontologyProperty = p22 }}
+--&gt;</text></revision></page><page><title>Mapping lv:Tēla infokaste</title><ns>332</ns><id>11680</id><revision><id>51049</id><timestamp>2016-05-08T08:19:04Z</timestamp><text>{{ TemplateMapping | mapToClass = FictionalCharacter | mappings = 
+    {{ PropertyMapping | templateProperty = occupation | ontologyProperty = occupation }}
+    {{ PropertyMapping | templateProperty = religion | ontologyProperty = religion }}
+    {{ PropertyMapping | templateProperty = children | ontologyProperty = child }}
+    {{ PropertyMapping | templateProperty = spouse | ontologyProperty = spouse }}
+    {{ PropertyMapping | templateProperty = relatives | ontologyProperty = relative }}
+    {{ PropertyMapping | templateProperty = nationality | ontologyProperty = nationality }}
+    {{ PropertyMapping | templateProperty = gender | ontologyProperty = gender }}
+    {{ PropertyMapping | templateProperty = species | ontologyProperty = species }}
+    {{ PropertyMapping | ontologyProperty = foaf:name | templateProperty = name }}
+    {{ PropertyMapping | ontologyProperty = foaf:name | templateProperty = fullname }}
+    {{ PropertyMapping | ontologyProperty = alias | templateProperty = alias }}
+    {{ PropertyMapping | ontologyProperty = foaf:nick | templateProperty = nickname }}
+    {{ PropertyMapping | ontologyProperty = series | templateProperty = series }}
+    {{ PropertyMapping | ontologyProperty = relative | templateProperty = family }}
+    {{ PropertyMapping | templateProperty = creator | ontologyProperty = creator }}
+    {{ PropertyMapping | templateProperty = voice | ontologyProperty = voice }}
+    {{ PropertyMapping | templateProperty = portrayer | ontologyProperty = portrayer }}
+    {{ PropertyMapping | templateProperty = first | ontologyProperty = firstAppearance }}
+    {{ PropertyMapping | templateProperty = last | ontologyProperty = lastAppearance }} 
+}}</text></revision></page><page><title>Mapping lv:Universitātes infokaste</title><ns>332</ns><id>11682</id><revision><id>51055</id><timestamp>2016-05-08T08:27:23Z</timestamp><text>{{TemplateMapping
+| mapToClass = University
+| mappings =
+	{{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = native_name | ontologyProperty = foaf:name }}
+	{{PropertyMapping | templateProperty = latin_name | ontologyProperty = foaf:name | language = la }}
+	{{PropertyMapping | templateProperty = motto | ontologyProperty = motto }}
+	{{PropertyMapping | templateProperty = mottoeng | ontologyProperty = motto }}	
+	{{PropertyMapping | templateProperty = established | ontologyProperty = foundingDate }}
+	{{PropertyMapping | templateProperty = closed | ontologyProperty = closed }}
+	{{PropertyMapping | templateProperty = type | ontologyProperty = type }}
+	{{PropertyMapping | templateProperty = affiliation | ontologyProperty = affiliation }}
+	{{PropertyMapping | templateProperty = endowment | ontologyProperty = endowment | unit = Currency }}
+        {{PropertyMapping | templateProperty = officer_in_charge | ontologyProperty = officerInCharge }}
+	{{PropertyMapping | templateProperty = chairman | ontologyProperty = chairman }}
+	{{PropertyMapping | templateProperty = chancellor | ontologyProperty = chancellor }}
+	{{PropertyMapping | templateProperty = president | ontologyProperty = president }}
+	{{PropertyMapping | templateProperty = vice-president | ontologyProperty = vicePresident }}
+	{{PropertyMapping | templateProperty = superintendent | ontologyProperty = superintendent }}
+	{{PropertyMapping | templateProperty = provost | ontologyProperty = provost }}
+	{{PropertyMapping | templateProperty = vice_chancellor | ontologyProperty = viceChancellor }}
+	{{PropertyMapping | templateProperty = rector | ontologyProperty = rector }}
+	{{PropertyMapping | templateProperty = principal | ontologyProperty = principal }}	
+	{{PropertyMapping | templateProperty = dean | ontologyProperty = dean }}
+	{{PropertyMapping | templateProperty = director | ontologyProperty = director }}
+	{{PropertyMapping | templateProperty = head | ontologyProperty = head }}
+        {{PropertyMapping | templateProperty = faculty | ontologyProperty = facultySize }}
+	{{PropertyMapping | templateProperty = staff | ontologyProperty = staff }}
+	{{PropertyMapping | templateProperty = students | ontologyProperty = numberOfStudents }}
+	{{PropertyMapping | templateProperty = undergrad | ontologyProperty = numberOfUndergraduateStudents }}
+	{{PropertyMapping | templateProperty = postgrad | ontologyProperty = numberOfPostgraduateStudents }}
+	{{PropertyMapping | templateProperty = doctoral | ontologyProperty = numberOfDoctoralStudents }}
+	{{PropertyMapping | templateProperty = other | ontologyProperty = other }}
+        {{GeocoordinatesMapping | coordinates = coor }}
+	{{PropertyMapping | templateProperty = campus | ontologyProperty = campus }}
+	{{PropertyMapping | templateProperty = former_names | ontologyProperty = formerName }}
+	{{PropertyMapping | templateProperty = sports | ontologyProperty = sport }}
+	{{PropertyMapping | templateProperty = colors | ontologyProperty = officialSchoolColour }}
+	{{PropertyMapping | templateProperty = colours | ontologyProperty = officialSchoolColour }}
+	{{PropertyMapping | templateProperty = nickname | ontologyProperty = foaf:nick }}
+	{{PropertyMapping | templateProperty = mascot | ontologyProperty = mascot }}
+	{{PropertyMapping | templateProperty = athletics | ontologyProperty = athletics }}
+	{{PropertyMapping | templateProperty = affiliations | ontologyProperty = affiliation }}
+	{{PropertyMapping | templateProperty = website | ontologyProperty = foaf:homepage }}
+
+}}</text></revision></page><page><title>Mapping lv:Upes infokaste</title><ns>332</ns><id>11632</id><revision><id>50979</id><timestamp>2016-04-30T22:40:24Z</timestamp><text>{{TemplateMapping
 | mapToClass = River
 | mappings =
 
@@ -2415,22 +2699,26 @@
     {{ PropertyMapping | templateProperty = iso_kods_num 	| ontologyProperty = p83 }}
     {{ PropertyMapping | templateProperty = iso_kods_alfa2 	| ontologyProperty = p84 }}
     {{ PropertyMapping | templateProperty = iso_kods_alfa3 	| ontologyProperty = p85 }}
---&gt;</text></revision></page><page><title>Mapping lv:Vielas infokaste</title><ns>332</ns><id>11646</id><revision><id>51005</id><timestamp>2016-05-02T20:49:14Z</timestamp><text>{{ TemplateMapping | mapToClass = ChemicalCompound | mappings = 
+--&gt;</text></revision></page><page><title>Mapping lv:Vielas infokaste</title><ns>332</ns><id>11646</id><revision><id>51044</id><timestamp>2016-05-07T21:07:30Z</timestamp><text>{{ TemplateMapping | mapToClass = ChemicalSubstance | mappings = 
 
     {{ PropertyMapping | templateProperty = nosaukums 	| ontologyProperty = foaf:name }}
+    {{ PropertyMapping | templateProperty = attēls 	| ontologyProperty = foaf:depiction }}
+    {{ PropertyMapping | templateProperty = ķīmiskā formula 	| ontologyProperty = formula }}
+
+    {{ PropertyMapping | templateProperty = CAS numurs 	| ontologyProperty = casNumber }} &lt;!-- ??? --&gt;
+
+    {{ PropertyMapping | templateProperty = molmasa 	| ontologyProperty = molecularWeight }}
+    {{ PropertyMapping | templateProperty = viršanas temperatūra 	| ontologyProperty = boilingPoint }}
+    {{ PropertyMapping | templateProperty = blīvums 	| ontologyProperty = ChemicalSubstance/density }}
+    {{ PropertyMapping | templateProperty = kušanas temperatūra 	| ontologyProperty = ChemicalSubstance/meltingPoint }}
+    {{ PropertyMapping | templateProperty = šķīdība ūdenī 	| ontologyProperty = solubility }}
 
 }}
 
 &lt;!-- NOT YET MAPPED
-    {{ PropertyMapping | templateProperty = attēls 	| ontologyProperty = p0 }}
+
     {{ PropertyMapping | templateProperty = citi nosaukumi 	| ontologyProperty = p1 }}
-    {{ PropertyMapping | templateProperty = CAS numurs 	| ontologyProperty = p2 }}
-    {{ PropertyMapping | templateProperty = ķīmiskā formula 	| ontologyProperty = p3 }}
-    {{ PropertyMapping | templateProperty = molmasa 	| ontologyProperty = p4 }}
-    {{ PropertyMapping | templateProperty = blīvums 	| ontologyProperty = p5 }}
-    {{ PropertyMapping | templateProperty = kušanas temperatūra 	| ontologyProperty = p6 }}
-    {{ PropertyMapping | templateProperty = viršanas temperatūra 	| ontologyProperty = p7 }}
-    {{ PropertyMapping | templateProperty = šķīdība ūdenī 	| ontologyProperty = p8 }}
+
     {{ PropertyMapping | templateProperty = izoelektriskais punkts 	| ontologyProperty = p9 }}
     {{ PropertyMapping | templateProperty = citi 	| ontologyProperty = p10 }}
 --&gt;</text></revision></page><page><title>Mapping lv:Zinātnieka infokaste</title><ns>332</ns><id>11425</id><revision><id>49436</id><timestamp>2015-11-02T16:14:47Z</timestamp><text>{{TemplateMapping | mapToClass = Scientist

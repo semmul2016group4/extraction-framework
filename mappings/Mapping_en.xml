@@ -16400,7 +16400,7 @@ http://en.wikipedia.org/wiki/Template:Infobox_Christian_leader --&gt;
 	{{PropertyMapping | templateProperty = MeshNumber | ontologyProperty = meshNumber }}
 	{{PropertyMapping | templateProperty = DorlandsPre | ontologyProperty = dorlandsPrefix }}
 	{{PropertyMapping | templateProperty = DorlandsSuf | ontologyProperty = dorlandsSuffix }}
-}}</text></revision></page><page><title>Mapping en:Infobox book</title><ns>204</ns><id>1696</id><revision><id>49499</id><timestamp>2015-11-06T01:39:27Z</timestamp><text>{{TemplateMapping
+}}</text></revision></page><page><title>Mapping en:Infobox book</title><ns>204</ns><id>1696</id><revision><id>51052</id><timestamp>2016-05-08T08:23:00Z</timestamp><text>{{TemplateMapping
 | mapToClass = Book
 | mappings = 
  {{PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
@@ -20206,53 +20206,18 @@ Template Properties not mapped yet:
 	{{PropertyMapping | templateProperty = place of birth | ontologyProperty = birthPlace }}
 	{{PropertyMapping | templateProperty = date of death | ontologyProperty = deathDate }}
 	{{PropertyMapping | templateProperty = place of death | ontologyProperty = deathPlace }}
-}}</text></revision></page><page><title>Mapping en:Infobox monument</title><ns>204</ns><id>6463</id><revision><id>23744</id><timestamp>2013-02-15T09:13:08Z</timestamp><text>{{ TemplateMapping 
+}}</text></revision></page><page><title>Mapping en:Infobox monument</title><ns>204</ns><id>6463</id><revision><id>51058</id><timestamp>2016-05-08T20:21:34Z</timestamp><text>{{ TemplateMapping 
  | mapToClass = Monument
  | mappings = 
-	{{ PropertyMapping | templateProperty = location | ontologyProperty = location }}
+
         {{ PropertyMapping | templateProperty = monument_name | ontologyProperty = foaf:name }}
         {{ PropertyMapping | templateProperty = designer | ontologyProperty = designer }}
-}}
+        {{ PropertyMapping | templateProperty = location | ontologyProperty = location }}
 
-&lt;!--
-    {{ PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
-    {{ GeocoordinatesMapping | latitude = latitude | longitude = longitude }}
-    {{ PropertyMapping | templateProperty = motto | ontologyProperty = motto }}
-    {{ PropertyMapping | templateProperty = established | ontologyProperty = foundingDate }}
-    {{ PropertyMapping | templateProperty = established | ontologyProperty = foundingYear }}
-    {{ PropertyMapping | templateProperty = closed | ontologyProperty = closingDate }}
-    {{ PropertyMapping | templateProperty = closed | ontologyProperty = closingYear }}
-    {{ PropertyMapping | templateProperty = type | ontologyProperty = type }}
-    {{ PropertyMapping | templateProperty = religion | ontologyProperty = religion }}
-    {{ PropertyMapping | templateProperty = president | ontologyProperty = president }}
-    {{ PropertyMapping | templateProperty = head_label | ontologyProperty = headLabel }}
-    {{ PropertyMapping | templateProperty = head | ontologyProperty = head }}
-    {{ PropertyMapping | templateProperty = r_head_label | ontologyProperty = religiousHeadLabel }}
-    {{ PropertyMapping | templateProperty = r_head | ontologyProperty = religiousHead }}
-    {{ PropertyMapping | templateProperty = deputy_head_label | ontologyProperty = vicePrincipalLabel }}
-    {{ PropertyMapping | templateProperty = deputy_head | ontologyProperty = vicePrincipal }}
-    {{ PropertyMapping | templateProperty = chair_label | ontologyProperty = chairLabel }}
-    {{ PropertyMapping | templateProperty = chair | ontologyProperty = chairperson }}
-    {{ PropertyMapping | templateProperty = founder | ontologyProperty = foundedBy }}
-    {{ PropertyMapping | templateProperty = specialist | ontologyProperty = specialist }}
-    {{ PropertyMapping | templateProperty = city | ontologyProperty = city }}
-    {{ PropertyMapping | templateProperty = county | ontologyProperty = county }}
-    {{ PropertyMapping | templateProperty = country | ontologyProperty = country }}
-    {{ PropertyMapping | templateProperty = postcode | ontologyProperty = postalCode }}
-    {{ PropertyMapping | templateProperty = LEA | ontologyProperty = localAuthority }}
-    {{ PropertyMapping | templateProperty = dfeno | ontologyProperty = dfE }}
-    {{ PropertyMapping | templateProperty = dcsfno | ontologyProperty = dfE }}
-    {{ PropertyMapping | templateProperty = urn | ontologyProperty = uRN }}
-    {{ PropertyMapping | templateProperty = dcsfurn | ontologyProperty = uRN }}
-    {{ PropertyMapping | templateProperty = staff | ontologyProperty = staff }}
-    {{ PropertyMapping | templateProperty = enrollment | ontologyProperty = numberOfStudents }}
-    {{ PropertyMapping | templateProperty = enrolment | ontologyProperty = numberOfStudents }}
-    {{ PropertyMapping | templateProperty = gender | ontologyProperty = gender }}
-    {{ PropertyMapping | templateProperty = lower_age | ontologyProperty = lowerAge }}
-    {{ PropertyMapping | templateProperty = upper_age | ontologyProperty = upperAge }}
-    {{ PropertyMapping | templateProperty = colours | ontologyProperty = officialSchoolColour }}
-    {{ PropertyMapping | templateProperty = website | ontologyProperty = foaf:homepage }}
---&gt;</text></revision></page><page><title>Mapping en:Infobox motorcycle</title><ns>204</ns><id>7999</id><revision><id>28142</id><timestamp>2013-09-01T12:54:52Z</timestamp><text>{{TemplateMapping | mapToClass = Motorcycle
+{{GeocoordinatesMapping 
+    | latitudeDirection = latNS | latitudeDegrees = latd | latitudeMinutes = latm | latitudeSeconds = lats 
+    | longitudeDirection = longEW | longitudeDegrees = longd | longitudeMinutes = longm | longitudeSeconds = longs }}
+}}</text></revision></page><page><title>Mapping en:Infobox motorcycle</title><ns>204</ns><id>7999</id><revision><id>28142</id><timestamp>2013-09-01T12:54:52Z</timestamp><text>{{TemplateMapping | mapToClass = Motorcycle
 | mappings = 
 	{{ PropertyMapping | templateProperty = name | ontologyProperty = foaf:name }}
 
