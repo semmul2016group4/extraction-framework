@@ -218,7 +218,13 @@ class WikiApi(url: URL, language: Language)
         {
             try
             {
-                val reader = new URL(url + params).openStream()
+                val connection = new URL(url + params).openConnection()
+                connection.setRequestProperty(
+                    "User-Agent",
+                    "live.dbpedia extraction framework using RCStreams. " +
+                      "lukas.faber@student.hpi.uni-potsdam.de " +
+                      "(https://phabricator.wikimedia.org/T70538)")
+                val reader = connection.getInputStream
                 val xml = XML.load(reader)
                 reader.close()
 
