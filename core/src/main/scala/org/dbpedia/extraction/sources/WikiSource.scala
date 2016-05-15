@@ -62,7 +62,7 @@ object WikiSource
     /**
      * Fetches all pages from a list of titles.
      *
-     * @param title The titles of the pages
+     * @param titles The titles of the pages
      * @param url The URL of the MediaWiki API e.g. http://en.wikipedia.org/w/api.php
      * @param language The language of the MediaWiki
      */
@@ -82,7 +82,7 @@ object WikiSource
     /**
      * Source of all pages which belong to a specific namespace.
      *
-     * @param namespace The namespaces to fetch articles from
+     * @param namespaces The namespaces to fetch articles from
      * @param url The URL of the MediaWiki API e.g. http://en.wikipedia.org/w/api.php
      * @param language The language of the MediaWiki
      */
