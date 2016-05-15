@@ -11,6 +11,8 @@ import org.dbpedia.extraction.wikiparser._
 import org.dbpedia.util.text.ParseExceptionIgnorer
 import org.dbpedia.util.text.html.{HtmlCoder, XmlCodes}
 
+import org.dbpedia.extraction.live.core.LiveOptions
+
 import scala.io.Source
 import scala.language.reflectiveCalls
 import scala.xml.XML
@@ -37,7 +39,7 @@ class AbstractExtractor(
 extends PageNodeExtractor
 {
     //TODO make this configurable
-    protected def apiUrl: String = "http://localhost/mediawiki/api.php"
+    protected def apiUrl: String = "https://en.wikipedia.org/w/api.php"
 
     private val maxRetries = 3
 

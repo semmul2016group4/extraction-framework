@@ -182,8 +182,8 @@ object Language extends (String => Language)
    * Gets a language object for a Wikipedia language code.
    * Throws IllegalArgumentException if language code is unknown.
    */
-  //def apply(code: String) : Language = map.getOrElse(code, throw new IllegalArgumentException("unknown language code "+code))
-  def apply(code: String) : Language = map.getOrElse(code, Language.English)
+  def apply(code: String) : Language = map.getOrElse(code, throw new IllegalArgumentException("unknown language code "+code))
+//  def apply(code: String) : Language = map.getOrElse(code, Language.English)
   /**
    * Gets a language object for a Wikipedia language code, or None if given code is unknown.
    */
