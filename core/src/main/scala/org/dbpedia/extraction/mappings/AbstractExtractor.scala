@@ -11,8 +11,6 @@ import org.dbpedia.extraction.wikiparser._
 import org.dbpedia.util.text.ParseExceptionIgnorer
 import org.dbpedia.util.text.html.{HtmlCoder, XmlCodes}
 
-import org.dbpedia.extraction.live.core.LiveOptions
-
 import scala.io.Source
 import scala.language.reflectiveCalls
 import scala.xml.XML
