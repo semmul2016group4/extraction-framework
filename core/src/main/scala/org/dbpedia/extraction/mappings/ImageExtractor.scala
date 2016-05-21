@@ -46,7 +46,8 @@ extends PageNodeExtractor
   logger.info("Loadings images")
   private val nonFreeImages = new HashSet[String]()
   private val freeWikipediaImages = new HashSet[String]()
-  ImageExtractor.loadImages(context.commonsSource, null, nonFreeImages, wikiCode)
+  // Temporarily disable commons based image extraction
+  // ImageExtractor.loadImages(context.commonsSource, null, nonFreeImages, wikiCode)
   ImageExtractor.loadImages(context.articlesSource, freeWikipediaImages, nonFreeImages, wikiCode)
   logger.info("Images loaded from dump")
 
