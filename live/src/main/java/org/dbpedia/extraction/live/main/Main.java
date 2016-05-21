@@ -3,16 +3,14 @@ package org.dbpedia.extraction.live.main;
 
 import org.dbpedia.extraction.live.core.LiveOptions;
 import org.dbpedia.extraction.live.feeder.Feeder;
-import org.dbpedia.extraction.live.feeder.DummyFeeder;
 import org.dbpedia.extraction.live.feeder.RCStreamFeeder;
+import org.dbpedia.extraction.live.feeder.UnmodifiedFeeder;
 import org.dbpedia.extraction.live.publisher.DiffData;
 import org.dbpedia.extraction.live.queue.LiveQueue;
 import org.dbpedia.extraction.live.queue.LiveQueuePriority;
 import org.dbpedia.extraction.live.processor.PageProcessor;
 import org.dbpedia.extraction.live.publisher.Publisher;
-import org.dbpedia.extraction.live.statistics.Statistics;
 import org.dbpedia.extraction.live.storage.JDBCUtil;
-import org.dbpedia.extraction.live.util.DateUtil;
 import org.dbpedia.extraction.live.util.ExceptionUtil;
 import org.dbpedia.extraction.live.util.Files;
 import org.slf4j.Logger;
@@ -55,10 +53,22 @@ public class Main {
 
         JDBCUtil.execSQL("SET names utf8");
 
-        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.mappings.enabled")) == true) {
+        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.rcstream.enabled"))) {
             feeders.add(new RCStreamFeeder("RCStreamFeeder", LiveQueuePriority.LivePriority,
-                    LiveOptions.options.get("uploaded_dump_date"), "./tmp", "en.wikipedia.org"));
+                    LiveOptions.options.get("uploaded_dump_date"), LiveOptions.options.getComment("working_directory"),
+                    LiveOptions.options.get("feeder.rcstream.room")));
         }
+
+        if (Boolean.parseBoolean(LiveOptions.options.get("feeder.unmodified.enabled")) == true) {
+            int minDaysAgo = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.minDaysAgo"));
+            int chunk = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.chunk"));
+            int threshold = Integer.parseInt(LiveOptions.options.get("feeder.unmodified.threshold"));
+            long sleepTime = Long.parseLong(LiveOptions.options.get("feeder.unmodified.sleepTime"));
+            feeders.add( new UnmodifiedFeeder("FeederUnmodified", LiveQueuePriority.UnmodifiedPagePriority,
+                    minDaysAgo, chunk, threshold, sleepTime,
+                    LiveOptions.options.get("uploaded_dump_date"), LiveOptions.options.get("working_directory")));
+        }
+
         int threads = Integer.parseInt(LiveOptions.options.get("ProcessingThreads"));
         for (int i=0; i < threads ; i++){
             processors.add( new PageProcessor("N" + (i+1)));
