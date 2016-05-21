@@ -221,7 +221,7 @@ object Disambiguation
     private def zh_disambiguations = Set("Disambiguation","消除歧义","Letter disambig","消岐義","消岐義頁","Disambig","消除歧義","消歧义","消歧義頁","Chemdab","Disamb","分歧页","消歧义页","消歧義","MolFormDisambig","分歧","Dab","消除含糊","Isomerdab","分歧義","消含糊","Deprecated")
     private def zh_min_nan_disambiguations = Set("KhPI","Khu-pia̍t-iah","Khu-pia̍t-ia̍h","Disambig")
     private def zh_yue_disambiguations = Set("Disambig","搞清楚")
-
+    private def be_tarask_disambiguations = Set("Неадназначнасць")
 
 
     def apply(language : Language) = map(language.wikiCode)

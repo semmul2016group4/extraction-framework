@@ -305,7 +305,7 @@ object Redirect
     private def zh_min_nan_redirects = Set("#重新導向","#重定向","#REDIRECT")
     private def zh_yue_redirects = Set("#REDIRECT")
     private def zu_redirects = Set("#REDIRECT")
-
+    private def be_tarask_redirects = Set("#REDIRECT")
 
 
     def apply(language : Language) = map(language.wikiCode)
