@@ -64,10 +64,11 @@
 {{comment|pl| Czasopismo naukowe – rodzaj czasopisma, w którym są drukowane publikacje naukowe podlegające recenzji naukowej. Współcześnie szacuje się, że na świecie jest wydawanych ponad 54 tys. czasopism naukowych, w których pojawia się ponad milion artykułów rocznie.}}
 
 | owl:equivalentClass = wikidata:Q737498
-}}</text></revision></page><page><title>OntologyClass:AcademicSubject</title><ns>200</ns><id>9708</id><revision><id>50871</id><timestamp>2016-04-19T10:17:24Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:AcademicSubject</title><ns>200</ns><id>9708</id><revision><id>51069</id><timestamp>2016-05-12T16:39:57Z</timestamp><text>{{Class
 |labels= 
 {{label|en|academic subject}}
 {{label|de|akademisches Fach}}
+{{label|fr|sujet académique}}
 {{label|gl|disciplina académica}}
 {{label|nl|academische hoofdstudierichting}}
 {{label|pl|dyscyplina naukowa}}
@@ -583,9 +584,10 @@
 |owl:equivalentClass = schema:StadiumOrArena
 | comments =
 {{comment|en|An arena is an enclosed area, often circular or oval-shaped, designed to showcase theater, musical performances, or sporting events. (http://en.wikipedia.org/wiki/Arena)}}
-}}</text></revision></page><page><title>OntologyClass:Aristocrat</title><ns>200</ns><id>7548</id><revision><id>50747</id><timestamp>2016-04-15T11:51:20Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Aristocrat</title><ns>200</ns><id>7548</id><revision><id>51079</id><timestamp>2016-05-14T15:14:49Z</timestamp><text>{{Class
 | labels =
 {{label|en|aristocrat}}
+{{label|fr|aristocrate}}
 {{label|ga|uaslathaí}}
 {{label|de|Aristokrat}}
 {{label|nl|aristocraat}}
@@ -1046,10 +1048,11 @@
 {{label|ja|バスケットボールチーム}}
 {{label|ko| 농구 팀   }}
 | rdfs:subClassOf = SportsTeam
-}}</text></revision></page><page><title>OntologyClass:Bay</title><ns>200</ns><id>11293</id><revision><id>50751</id><timestamp>2016-04-15T12:07:32Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Bay</title><ns>200</ns><id>11293</id><revision><id>51078</id><timestamp>2016-05-14T15:11:09Z</timestamp><text>{{Class
 |labels = 
 {{label|en|bay}}
 {{label|de|Bucht}}
+{{label|fr|baie}}
 {{label|nl|baai}}
 {{label|pt|baía}}
 {{label|ja|湾}}
@@ -1196,9 +1199,10 @@
 | owl:equivalentClass = http://purl.org/vocab/bio/0.1/Birth
 | comments=
 {{comment|en|someone's birth as a type of personal event}}
-}}</text></revision></page><page><title>OntologyClass:Blazon</title><ns>200</ns><id>6781</id><revision><id>50756</id><timestamp>2016-04-15T12:14:04Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Blazon</title><ns>200</ns><id>6781</id><revision><id>51070</id><timestamp>2016-05-12T16:43:00Z</timestamp><text>{{Class
 | labels =
 	{{label|en|Blazon}}
+	{{label|fr|Blason}}
 	{{label|nl|blazoen (wapenschild)}}
 	{{label|el|οικόσημο}}
 	{{label|de|Wappen}}
@@ -1933,11 +1937,12 @@
 {{label|it|vescovo cristiano}}
 {{label|ko| 기독교 주교 }}
 | rdfs:subClassOf = Cleric
-}}</text></revision></page><page><title>OntologyClass:ChristianDoctrine</title><ns>200</ns><id>6160</id><revision><id>37692</id><timestamp>2014-08-28T02:05:03Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:ChristianDoctrine</title><ns>200</ns><id>6160</id><revision><id>51077</id><timestamp>2016-05-14T15:08:53Z</timestamp><text>{{Class
 | labels =
 {{label|en|Christian Doctrine}}
 {{label|de|Christliche Lehre}}
 {{label|el|Χριστιανικό Δόγμα}}
+{{label|fr|doctrine chrétienne}}
 {{label|it|dottrina cristiana}}
 {{label|nl|Christelijke leer}}
 {{label|ko|기독교 교리  }}
@@ -2197,12 +2202,13 @@
 {{label|ko|만화가}}
 {{label|ja|漫画家}}
 | rdfs:subClassOf = Artist
-}}</text></revision></page><page><title>OntologyClass:Community</title><ns>200</ns><id>7077</id><revision><id>50425</id><timestamp>2016-03-04T06:50:05Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Community</title><ns>200</ns><id>7077</id><revision><id>51080</id><timestamp>2016-05-14T15:15:34Z</timestamp><text>{{Class
 | labels =
 {{label|en|Community}}
 {{label|ga|pobal}}
 {{label|nl|gemeenschap (community)}}
 {{label|de|Gemeinde}}
+{{label|fr|communauté}}
 {{label|el|κοινότητα}}
 {{label|ko|공동체}}
 {{label|ja|コミュニティ}}
@@ -2265,7 +2271,7 @@
 {{comment|es|Las coníferas son plantas vasculares, con las semillas contenidas en un cono. Son plantas leñosas.}}
 }}
 == References ==
-&lt;references /&gt;</text></revision></page><page><title>OntologyClass:Constellation</title><ns>200</ns><id>4549</id><revision><id>48234</id><timestamp>2015-05-25T15:24:22Z</timestamp><text>{{Class
+&lt;references /&gt;</text></revision></page><page><title>OntologyClass:Constellation</title><ns>200</ns><id>4549</id><revision><id>51081</id><timestamp>2016-05-14T15:16:14Z</timestamp><text>{{Class
 | rdfs:subClassOf = CelestialBody
 | labels = 
 {{label|en|constellation}}
@@ -2273,6 +2279,7 @@
 {{label|es|constelación}}
 {{label|de|Sternbild}}
 {{label|el|αστερισμός}}
+{{label|fr|constellation}}
 {{label|it|costellazione}}
 {{label|tr|takımyıldızı}}
 {{label|nl|samenstel}}
@@ -2371,12 +2378,13 @@
 {{comment|en|A country seat is a rural patch of land owned by a land owner.}}
 {{comment|nl|Een buitenplaats is een landgoed.}}
 | rdfs:subClassOf = Place
-}}</text></revision></page><page><title>OntologyClass:Crater</title><ns>200</ns><id>8694</id><revision><id>50767</id><timestamp>2016-04-15T12:39:08Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Crater</title><ns>200</ns><id>8694</id><revision><id>51082</id><timestamp>2016-05-14T15:16:49Z</timestamp><text>{{Class
 | labels =
 {{label|en|crater}}
 {{label|ga|cráitéar}}
 {{label|de|Krater}}
 {{label|el|κρατήρας}}
+{{label|fr|cratère}}
 {{label|it|cratere}}
 {{label|nl|krater}}
 {{label|pt|cratera}}
@@ -2718,10 +2726,11 @@
 {{label|el|τμήμα}}
 {{label|ko|부서}}
 | rdfs:subClassOf = GovernmentalAdministrativeRegion
-}}</text></revision></page><page><title>OntologyClass:Depth</title><ns>200</ns><id>7924</id><revision><id>50786</id><timestamp>2016-04-15T18:34:33Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Depth</title><ns>200</ns><id>7924</id><revision><id>51092</id><timestamp>2016-05-16T17:03:23Z</timestamp><text>{{Class
 | labels =
 {{label|en|depth}}
 {{label|de|Tiefe}}
+{{label|fr|profondeur}}
 {{label|el|βάθος}}
 {{label|nl|diepte}}
 {{label|ja|深度}}
@@ -2923,10 +2932,11 @@
                        {{SpecificProperty | ontologyProperty = boilingPoint | unit = kelvin }}
 | rdfs:subClassOf = ChemicalSubstance
 | owl:equivalentClass = wikidata:Q8386
-}}</text></revision></page><page><title>OntologyClass:Earthquake</title><ns>200</ns><id>11242</id><revision><id>50795</id><timestamp>2016-04-16T05:23:27Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Earthquake</title><ns>200</ns><id>11242</id><revision><id>51083</id><timestamp>2016-05-14T15:17:39Z</timestamp><text>{{Class
 | labels = 
 {{label|en|earthquake}}
 {{label|de|Erdbeben}}
+{{label|fr|tremblement de terre}}
 {{label|nl|aardbeving}}
 {{label|ja|地震}}
 | rdfs:subClassOf = NaturalEvent
@@ -3600,11 +3610,12 @@
 |rdfs:label@en = spatial thing
 |rdfs:label@de = Objektraum
 |rdfs:label@fr = objet spatial
-}}</text></revision></page><page><title>OntologyClass:GeologicalPeriod</title><ns>200</ns><id>6714</id><revision><id>46143</id><timestamp>2015-03-17T15:08:34Z</timestamp><text>{{Class 
+}}</text></revision></page><page><title>OntologyClass:GeologicalPeriod</title><ns>200</ns><id>6714</id><revision><id>51093</id><timestamp>2016-05-16T17:04:38Z</timestamp><text>{{Class 
 |labels= 
 {{label|en|geological period}} 
 {{label|nl|geologische periode}}
 {{label|de|geologische Periode}} 
+{{label|fr|période géologiqueA}} 
 {{label|el|γεωλογική περίοδος}} 
 | rdfs:subClassOf = TimePeriod
 | owl:disjointWith = Person 
@@ -3837,9 +3848,10 @@
 {{label|de|Bruttoinlandsprodukt}}
 {{label|nl|bruto nationaal product}}
 {{label|el|ακαθάριστο εγχώριο προϊόν}}
-}}</text></revision></page><page><title>OntologyClass:GrossDomesticProductPerCapita</title><ns>200</ns><id>7928</id><revision><id>50725</id><timestamp>2016-04-13T14:48:27Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:GrossDomesticProductPerCapita</title><ns>200</ns><id>7928</id><revision><id>51074</id><timestamp>2016-05-12T16:54:01Z</timestamp><text>{{Class
 | labels =
 {{label|en|gross domestic product per capita}}
+{{label|fr|produit intérieur brut par habitant}}
 {{label|ga|olltáirgeacht intíre per capita}}
 {{label|de|Bruttoinlandsprodukt pro Kopf}}
 {{label|nl|bruto nationaal product per hoofd van de bevolking}}
@@ -4075,24 +4087,27 @@
 {{label|el|κινούμενα σχέδια του Hollywood}}
 {{label|de|Hollywood Cartoon}}
 | rdfs:subClassOf = Cartoon
-}}</text></revision></page><page><title>OntologyClass:Horse</title><ns>200</ns><id>11371</id><revision><id>50813</id><timestamp>2016-04-16T06:17:05Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Horse</title><ns>200</ns><id>11371</id><revision><id>51071</id><timestamp>2016-05-12T16:44:41Z</timestamp><text>{{Class
 | labels = 
 {{label|en|horse}}
+{{label|fr|cheval}}
 {{label|ga|capall}}
 {{label|nl|paard}}
 {{label|de|Pferd}}
 {{label|ja|ウマ}}
 | rdfs:subClassOf = Mammal
-}}</text></revision></page><page><title>OntologyClass:HorseRace</title><ns>200</ns><id>7996</id><revision><id>46882</id><timestamp>2015-03-22T12:14:05Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:HorseRace</title><ns>200</ns><id>7996</id><revision><id>51072</id><timestamp>2016-05-12T16:45:52Z</timestamp><text>{{Class
 | labels =
 {{label|en|horse race}}
 {{label|de|Pferderennen}}
+{{label|fr|course de chevaux}}
 {{label|el|αγώνας ιππασίας}}
 {{label|nl|paardenrace}}
 | rdfs:subClassOf = Race
-}}</text></revision></page><page><title>OntologyClass:HorseRider</title><ns>200</ns><id>7601</id><revision><id>47927</id><timestamp>2015-05-25T14:43:46Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:HorseRider</title><ns>200</ns><id>7601</id><revision><id>51073</id><timestamp>2016-05-12T16:50:29Z</timestamp><text>{{Class
 |labels =
 {{label|en|horse rider}}
+{{label|fr|cavalier}}
 {{label|ga|marcach}}
 {{label|de|Reiter}}
 {{label|nl|paardrijder}}
@@ -4224,9 +4239,10 @@
 	{{comment|en|for example: Progressivism_in_the_United_States, Classical_liberalism}}
 	{{comment|el|για παραδειγμα: Προοδευτισμός στις ΗΠΑ, κλασικός φιλελευθερισμός}}
 | owl:equivalentClass = wikidata:Q7257, d0:CognitiveEntity
-}}</text></revision></page><page><title>OntologyClass:Image</title><ns>200</ns><id>9565</id><revision><id>50416</id><timestamp>2016-03-04T06:41:00Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Image</title><ns>200</ns><id>9565</id><revision><id>51094</id><timestamp>2016-05-16T17:06:26Z</timestamp><text>{{Class
 | labels =
 {{label|en|image}}
+{{label|fr|image}}
 {{label|ga|íomhá}}
 {{label|nl|afbeelding}}
 {{label|de|Bild}}
@@ -4624,10 +4640,11 @@
 	{{comment|el|Μια γενική λίστα από αντικείμενα.}}
 | owl:equivalentClass = skos:OrderedCollection, dul:Collection
 | rdfs:subClassOf = owl:Thing
-}}</text></revision></page><page><title>OntologyClass:LiteraryGenre</title><ns>200</ns><id>9706</id><revision><id>50723</id><timestamp>2016-04-13T14:44:46Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:LiteraryGenre</title><ns>200</ns><id>9706</id><revision><id>51095</id><timestamp>2016-05-16T17:08:44Z</timestamp><text>{{Class
 |labels= 
 {{label|en|literary genre}}
 {{label|de|Literaturgattung}}
+{{label|fr|genre littéraire}}
 {{label|nl|literair genre}}
 | comments = {{comment|en|Genres of literature, e.g. Satire, Gothic}}
 | rdfs:subClassOf = Genre
@@ -6215,11 +6232,12 @@
 {{SpecificProperty | ontologyProperty = areaMetro | unit = squareKilometre }}
 {{SpecificProperty | ontologyProperty = areaUrban | unit = squareKilometre }}
 | owl:equivalentClass = wikidata:Q486972
-}}</text></revision></page><page><title>OntologyClass:Population</title><ns>200</ns><id>7909</id><revision><id>50891</id><timestamp>2016-04-19T11:33:05Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Population</title><ns>200</ns><id>7909</id><revision><id>51086</id><timestamp>2016-05-14T15:21:44Z</timestamp><text>{{Class
 | labels =
 {{label|en|population}}
 {{label|ga|daonra}}
 {{label|de|Bevölkerung}}
+{{label|fr|population}}
 {{label|el|πληθυσμός}}
 {{label|nl|bevolking}}
 {{label|ja|人口}}
@@ -6450,11 +6468,12 @@
 {{label|el|ψυχολόγος}}
 | rdfs:subClassOf = Person
 | owl:equivalentClass = wikidata:Q212980
-}}</text></revision></page><page><title>OntologyClass:PublicService</title><ns>200</ns><id>6750</id><revision><id>47052</id><timestamp>2015-03-23T10:34:27Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:PublicService</title><ns>200</ns><id>6750</id><revision><id>51096</id><timestamp>2016-05-18T07:08:38Z</timestamp><text>{{Class
 | labels =
 {{label|en|public service}}
 {{label|de|öffentlicher Dienst}}
 {{label|el|δημόσιες υπηρεσίες}}
+{{label|fr|service public}}
 | comments =
 {{comment|el|Είναι οι υπηρεσίες που προσφέρονται από δομές του κράτους}}
 | rdfs:subClassOf = owl:Thing
@@ -6997,14 +7016,17 @@
 {{label|nl| samba school}}
 {{label|pt | escola de samba}}
 | rdfs:subClassOf = Organisation
-}}</text></revision></page><page><title>OntologyClass:Satellite</title><ns>200</ns><id>9369</id><revision><id>48156</id><timestamp>2015-05-25T15:16:53Z</timestamp><text>{{Class
-| labels          = {{label|en|Satellite}}
+}}</text></revision></page><page><title>OntologyClass:Satellite</title><ns>200</ns><id>9369</id><revision><id>51087</id><timestamp>2016-05-14T15:23:04Z</timestamp><text>{{Class
+| labels          = 
+{{label|en|Satellite}}
+{{label|fr|satellite}}
 {{label|ga|satailít}}
                     {{label|nl|satelliet}}
                     {{label|de|Satellite}}
                     {{label|el|δορυφόρος}}
-| comments        = {{comment|en|An astronomic object orbiting around a planet or star. Definition partly derived from http://www.ontotext.com/proton/protonext# (and thus WordNet 1.7).}}
-                    {{comment|el|Ένα αστρονομικό αντικείμενο που βρίσκεται σε τροχιά γύρω από έναν πλανήτη ή αστέρι.}}
+| comments        = 
+{{comment|en|An astronomic object orbiting around a planet or star. Definition partly derived from http://www.ontotext.com/proton/protonext# (and thus WordNet 1.7).}}
+{{comment|el|Ένα αστρονομικό αντικείμενο που βρίσκεται σε τροχιά γύρω από έναν πλανήτη ή αστέρι.}}
 | rdfs:subClassOf =  CelestialBody
 &lt;!-- | owl:equivalentClass = http://www.ontotext.com/proton/protonext#Satellite --&gt;
 }}</text></revision></page><page><title>OntologyClass:School</title><ns>200</ns><id>636</id><revision><id>47489</id><timestamp>2015-04-01T20:12:17Z</timestamp><text>{{Class
@@ -7707,11 +7729,12 @@
 {{comment|en|A season for a particular sports team (as opposed to the season for the entire league that the team is in)}}
 {{comment|el|μία περίοδος για μία αθλητική ομάδα }}
 | rdfs:subClassOf = SportsSeason
-}}</text></revision></page><page><title>OntologyClass:Square</title><ns>200</ns><id>9406</id><revision><id>50926</id><timestamp>2016-04-22T07:56:29Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Square</title><ns>200</ns><id>9406</id><revision><id>51085</id><timestamp>2016-05-14T15:20:31Z</timestamp><text>{{Class
 | labels =
 {{label|en|square}}
 {{label|ga|cearnóg}}
 {{label|de|Platz}}
+{{label|fr|place}}
 {{label|nl|plein}}
 {{label|ja|正方形}}
 | rdfs:subClassOf = ArchitecturalStructure
@@ -7757,11 +7780,12 @@
 {{label|ja|恒星}}
 {{label|ko|항성}}
 | rdfs:subClassOf = CelestialBody
-}}</text></revision></page><page><title>OntologyClass:State</title><ns>200</ns><id>7030</id><revision><id>50408</id><timestamp>2016-03-04T06:34:22Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:State</title><ns>200</ns><id>7030</id><revision><id>51088</id><timestamp>2016-05-14T15:23:28Z</timestamp><text>{{Class
 | labels =
 {{label|en|state}}
 {{label|el|πολιτεία}}
 {{label|de|Staat}}
+{{label|de|état}}
 {{label|nl|staat}}
 {{label|ja|州}}
 | rdfs:subClassOf = PopulatedPlace
@@ -7791,11 +7815,12 @@
 {{comment|en|Public transport station (eg. railway station, metro station, bus station).}}
 {{comment|ru|Остановка общественного транспорта (например: железнодорожная станция, станция метро, автостанция).}}
 | owl:equivalentClass = wikidata:Q719456
-}}</text></revision></page><page><title>OntologyClass:Statistic</title><ns>200</ns><id>7871</id><revision><id>48316</id><timestamp>2015-05-25T15:32:20Z</timestamp><text>{{Class
+}}</text></revision></page><page><title>OntologyClass:Statistic</title><ns>200</ns><id>7871</id><revision><id>51084</id><timestamp>2016-05-14T15:20:08Z</timestamp><text>{{Class
 | labels =
 {{label|en|statistic}}
 {{label|ga|staitistic}}
 {{label|de|statistisch}}
+{{label|fr|statistique}}
 {{label|nl|statistisch}}
 {{label|el|στατιστική}}
 | owl:equivalentClass = wikidata:Q1949963
@@ -8858,10 +8883,11 @@
 {{label|nl|maalvaardig}}
 | rdfs:domain = Mill
 | rdfs:range = xsd:string
-}}</text></revision></page><page><title>OntologyProperty:AbsoluteMagnitude</title><ns>202</ns><id>4355</id><revision><id>47624</id><timestamp>2015-04-03T13:23:45Z</timestamp><text>{{DatatypeProperty
+}}</text></revision></page><page><title>OntologyProperty:AbsoluteMagnitude</title><ns>202</ns><id>4355</id><revision><id>51076</id><timestamp>2016-05-14T13:53:19Z</timestamp><text>{{DatatypeProperty
  |rdfs:label@en=absolute magnitude
  |rdfs:label@el=απόλυτο μέγεθος
  |rdfs:label@de=absolute Helligkeit
+ |rdfs:label@fr=magnitude absolue
  |rdfs:label@ga=dearbhmhéid
  |rdfs:label@pl=wielkość absolutna
  |rdfs:label@sr=апсолутна магнитуда
@@ -10799,10 +10825,11 @@
 {{label|en|black ski piste number}}
 | rdfs:domain = Place
 | rdfs:range = xsd:nonNegativeInteger
-}}</text></revision></page><page><title>OntologyProperty:Blazon</title><ns>202</ns><id>6775</id><revision><id>43323</id><timestamp>2015-02-06T13:32:35Z</timestamp><text>{{DatatypeProperty
+}}</text></revision></page><page><title>OntologyProperty:Blazon</title><ns>202</ns><id>6775</id><revision><id>51075</id><timestamp>2016-05-12T16:55:42Z</timestamp><text>{{DatatypeProperty
 | labels =
 {{label|en|blazon}}
 {{label|de|Wappen}}
+{{label|fr|blason}}
 {{label|bg|емблема}}
 | comments =
 {{comment|en|Coat of arms (heraldic image) or emblem }}
@@ -26288,19 +26315,20 @@ http://vocab.getty.edu/ulan/$1}}
 | rdfs:label@en = V_hb
 | rdfs:domain = Globularswarm
 | rdfs:range = xsd:integer
-}}</text></revision></page><page><title>OntologyProperty:Value</title><ns>202</ns><id>7907</id><revision><id>34403</id><timestamp>2014-04-08T13:44:06Z</timestamp><text>{{DatatypeProperty
+}}</text></revision></page><page><title>OntologyProperty:Value</title><ns>202</ns><id>7907</id><revision><id>51091</id><timestamp>2016-05-14T15:28:09Z</timestamp><text>{{DatatypeProperty
 | labels =
 {{label|en|value}}
 {{label|de|Wert}}
+{{label|fr|valeur}}
 {{label|sr|вредност}}
 | rdfs:range = xsd:nonNegativeInteger
-}}</text></revision></page><page><title>OntologyProperty:Valvetrain</title><ns>202</ns><id>1552</id><revision><id>50351</id><timestamp>2016-02-12T21:04:10Z</timestamp><text>
+}}</text></revision></page><page><title>OntologyProperty:Valvetrain</title><ns>202</ns><id>1552</id><revision><id>51064</id><timestamp>2016-05-11T08:50:34Z</timestamp><text>
 {{DatatypeProperty
 | rdfs:label@en = valvetrain
 | rdfs:label@de = Ventilsteuerung
 | rdfs:label@fr = distribution (moteur)
 | rdfs:domain = AutomobileEngine
-| rdfs:range =
+| rdfs:range = valvetrain
 | rdfs:subPropertyOf = &lt;!-- dul:hasComponent -- defined as object property, see https://github.com/dbpedia/ontology-tracker/issues/9 --&gt;
 }}</text></revision></page><page><title>OntologyProperty:VariantOf</title><ns>202</ns><id>1554</id><revision><id>36640</id><timestamp>2014-07-08T14:25:18Z</timestamp><text>
 {{ObjectProperty

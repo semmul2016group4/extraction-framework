@@ -1173,7 +1173,13 @@
 	{{PropertyMapping | templateProperty = next | ontologyProperty = subsequentWork }}
         {{PropertyMapping | templateProperty = next_no | ontologyProperty = subsequentWork }}
         {{PropertyMapping | templateProperty = prev_no | ontologyProperty = previousWork }}
-}}</text></revision></page><page><title>Mapping mk:Succession box</title><ns>310</ns><id>11600</id><revision><id>50629</id><timestamp>2016-03-10T15:18:07Z</timestamp><text></text></revision></page><page><title>Mapping mk:Верски објект</title><ns>310</ns><id>11508</id><revision><id>50017</id><timestamp>2015-12-31T02:59:38Z</timestamp><text>{{TemplateMapping | mapToClass = Church
+}}</text></revision></page><page><title>Mapping mk:Succession box</title><ns>310</ns><id>11600</id><revision><id>51100</id><timestamp>2016-05-19T10:59:37Z</timestamp><text>{{TemplateMapping | mapToClass = owl:Thing
+| mappings = 
+        {{ DateIntervalMapping | templateProperty = years| startDateOntologyProperty = activeYearsStartYear | endDateOntologyProperty = activeYearsEndYear }}
+	{{ PropertyMapping | templateProperty = before| ontologyProperty = foaf:name }}
+	{{ PropertyMapping | templateProperty = after| ontologyProperty = foaf:name }}
+	{{ PropertyMapping | templateProperty = title| ontologyProperty = title }}
+}}</text></revision></page><page><title>Mapping mk:Верски објект</title><ns>310</ns><id>11508</id><revision><id>50017</id><timestamp>2015-12-31T02:59:38Z</timestamp><text>{{TemplateMapping | mapToClass = Church
 | mappings = 
 	{{ PropertyMapping | templateProperty = location | ontologyProperty = headquarter}}
 	{{ PropertyMapping | templateProperty = building_name | ontologyProperty = foaf:name}}
@@ -1852,7 +1858,22 @@
 	{{PropertyMapping | templateProperty = битки| ontologyProperty = battle }}
 	{{PropertyMapping | templateProperty = одличја| ontologyProperty = award }}
 	{{PropertyMapping | templateProperty = занимања| ontologyProperty = occupation }}
-}}</text></revision></page><page><title>Mapping mk:Инфокутија Галаксија</title><ns>310</ns><id>11481</id><revision><id>49798</id><timestamp>2015-11-29T01:05:01Z</timestamp><text>{{TemplateMapping
+}}</text></revision></page><page><title>Mapping mk:Инфокутија Вооружен судир</title><ns>310</ns><id>11688</id><revision><id>51103</id><timestamp>2016-05-19T11:10:15Z</timestamp><text>{{ TemplateMapping
+| mapToClass = MilitaryConflict
+| mappings =
+{{ PropertyMapping | templateProperty = date | ontologyProperty = date }}
+{{ PropertyMapping | templateProperty = place| ontologyProperty = place}}
+
+&lt;!--{{ PropertyMapping | templateProperty = units2 | ontologyProperty = isbn }} bad mapping--&gt;
+{{ PropertyMapping | templateProperty = casualties1 | ontologyProperty = casualties }}}}
+{{ PropertyMapping | templateProperty = casualties2 | ontologyProperty = casualties }}}}
+{{ PropertyMapping | templateProperty = casualties3 | ontologyProperty = casualties }}}}
+{{ PropertyMapping | templateProperty = commander1| ontologyProperty = commander}}}}
+{{ PropertyMapping | templateProperty = commander2| ontologyProperty = commander}}}}
+
+{{ PropertyMapping | templateProperty = commander3| ontologyProperty = commander}}}}
+{{ PropertyMapping | templateProperty = conflict| ontologyProperty = conflict}}}}
+{{ PropertyMapping | templateProperty = status| ontologyProperty = status}}}}</text></revision></page><page><title>Mapping mk:Инфокутија Галаксија</title><ns>310</ns><id>11481</id><revision><id>49798</id><timestamp>2015-11-29T01:05:01Z</timestamp><text>{{TemplateMapping
 | mapToClass = Galaxy
 | mappings =
 {{PropertyMapping | templateProperty = епоха| ontologyProperty = epoch}}
@@ -3971,6 +3992,17 @@
 {{PropertyMapping | templateProperty = series| ontologyProperty = series}}
 {{PropertyMapping | templateProperty = date| ontologyProperty = releaseDate}}
 {{PropertyMapping | templateProperty = oclc| ontologyProperty = oclc}}
+}}</text></revision></page><page><title>Mapping mk:Наведена мрежна страница</title><ns>310</ns><id>11689</id><revision><id>51109</id><timestamp>2016-05-19T11:15:19Z</timestamp><text>{{TemplateMapping
+| mapToClass = Station
+| mappings =
+	{{ PropertyMapping | templateProperty = url| ontologyProperty = foaf:homepage}}
+	{{ PropertyMapping | templateProperty = title| ontologyProperty = title}}
+	{{ PropertyMapping | templateProperty = date| ontologyProperty = date}}
+	{{ PropertyMapping | templateProperty = year| ontologyProperty = year}}
+	{{ PropertyMapping | templateProperty = author| ontologyProperty = author}}
+
+	{{ PropertyMapping | templateProperty = language| ontologyProperty = language}}
+
 }}</text></revision></page><page><title>Mapping mk:Наведено списание</title><ns>310</ns><id>11590</id><revision><id>50600</id><timestamp>2016-03-10T14:22:16Z</timestamp><text>{{TemplateMapping
 | mapToClass = Magazine
 | mappings =
