@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <configuration>
-    <language name ="en">
+    <language name ="commons">
         <extractors>
-            <extractor name ="org.dbpedia.extraction.mappings.CommonsKMLExtractor" status="PURGE">
+            <extractor name ="org.dbpedia.extraction.mappings.CommonsKMLExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="STARTSWITH" pexact ="false">
                         <s></s>
@@ -12,7 +12,7 @@
                 </produces>
             </extractor>
 
-            <extractor name ="org.dbpedia.extraction.mappings.ImageAnnotationExtractor" status="PURGE">
+            <extractor name ="org.dbpedia.extraction.mappings.ImageAnnotationExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="STARTSWITH" pexact ="false">
                         <s></s>
@@ -22,7 +22,7 @@
                 </produces>
             </extractor>
 
-            <extractor name ="org.dbpedia.extraction.mappings.GalleryExtractor" status="PURGE">
+            <extractor name ="org.dbpedia.extraction.mappings.GalleryExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="STARTSWITH" pexact ="false">
                         <s></s>
@@ -32,7 +32,7 @@
                 </produces>
             </extractor>
 
-            <extractor name ="org.dbpedia.extraction.mappings.FileTypeExtractor" status="PURGE">
+            <extractor name ="org.dbpedia.extraction.mappings.FileTypeExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="STARTSWITH" pexact ="false">
                         <s></s>
@@ -42,7 +42,7 @@
                 </produces>
             </extractor>
 
-            <extractor name ="org.dbpedia.extraction.mappings.TemplateParameterExtractor" status="PURGE">
+            <extractor name ="org.dbpedia.extraction.mappings.TemplateParameterExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="STARTSWITH" pexact ="false">
                         <s></s>
