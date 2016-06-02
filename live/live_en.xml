@@ -6,11 +6,12 @@
                 <produces>
                     <matchPattern type="EXACT">
                         <s></s>
-                        <p></p>
+                        <p>OWL_SAMEAS</p>
                         <o></o>
                     </matchPattern>
                 </produces>
             </extractor>
+
             <extractor name ="org.dbpedia.extraction.mappings.LabelExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="EXACT">
