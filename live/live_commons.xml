@@ -2,6 +2,15 @@
 <configuration>
     <language name ="commons">
         <extractors>
+            <extractor name ="org.dbpedia.extraction.mappings.DBpediaResourceExtractor" status="ACTIVE">
+                <produces>
+                    <matchPattern type="STARTSWITH" pexact ="false">
+                        <s></s>
+                        <p></p>
+                        <o></o>
+                    </matchPattern>
+                </produces>
+            </extractor>
             <extractor name ="org.dbpedia.extraction.mappings.CommonsKMLExtractor" status="ACTIVE">
                 <produces>
                     <matchPattern type="STARTSWITH" pexact ="false">

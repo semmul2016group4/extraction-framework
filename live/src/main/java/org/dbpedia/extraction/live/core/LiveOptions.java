@@ -21,7 +21,7 @@ public class LiveOptions {
     static{
         try{
 
-            File OptionsFile = new File("./live.ini");
+            File OptionsFile = new File("./live_commons.ini");
 
             options = new Options(OptionsFile);
         }
