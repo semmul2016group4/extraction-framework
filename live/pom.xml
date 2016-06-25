@@ -76,13 +76,25 @@
         </plugins>
     </build>
 
-
+    <repositories>
+        <repository>
+            <id>keytwo.net</id>
+            <name>Keytwo.net Repository</name>
+            <url>http://audiobox.keytwo.net</url>
+        </repository>
+    </repositories>
 
     <dependencies>
 
         <dependency>
             <groupId>org.dbpedia.extraction</groupId>
             <artifactId>core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.socket</groupId>
+            <artifactId>socket.io-client</artifactId>
+            <version>0.2.1</version>
         </dependency>
 
         <dependency>
@@ -170,6 +182,11 @@
             <version>2.5.2</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.2.2</version>
+        </dependency>
 
     </dependencies>
 
