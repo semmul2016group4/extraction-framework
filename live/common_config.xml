@@ -427,7 +427,7 @@
                 </produces>
             </extractor>
 
-            <extractor name ="org.dbpedia.extraction.mappings.ImageExtractorLive" status="ACTIVE">
+            <extractor name ="org.dbpedia.extraction.mappings.ImageExtractorLive" status="PURGE">
                 <produces>
                     <matchPattern type="EXACT">
                         <s></s>
