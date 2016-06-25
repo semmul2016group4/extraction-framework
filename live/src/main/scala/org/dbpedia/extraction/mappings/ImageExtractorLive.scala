@@ -7,6 +7,8 @@ import org.dbpedia.extraction.destinations.{DBpediaDatasets, Quad}
 import org.dbpedia.extraction.ontology.Ontology
 import org.dbpedia.extraction.sources.Source
 import org.dbpedia.extraction.util.{ExtractorUtils, Language, WikiApi, WikiUtil}
+import org.dbpedia.extraction.util.RichString.wrapString
+
 import org.dbpedia.extraction.wikiparser._
 
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
