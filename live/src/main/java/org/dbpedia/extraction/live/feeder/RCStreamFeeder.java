@@ -6,6 +6,7 @@ import io.socket.IOCallback;
 import io.socket.SocketIO;
 import io.socket.SocketIOException;
 import org.dbpedia.extraction.live.core.LiveOptions;
+import org.dbpedia.extraction.live.helper.RCStatisticsLogger;
 import org.dbpedia.extraction.live.main.Main;
 import org.dbpedia.extraction.live.queue.LiveQueueItem;
 import org.dbpedia.extraction.live.queue.LiveQueuePriority;
@@ -112,6 +113,11 @@ public class RCStreamFeeder extends Feeder implements IOCallback {
     @Override
     public void on(String event, IOAcknowledge ack, com.google.gson.JsonElement... args) {
         JsonObject jsonObject = (JsonObject) args[0];
+        try{
+            RCStatisticsLogger.saveFullInformationSet(jsonObject);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
         if (jsonObject.get("type").getAsString().matches("(categorize|log)")) {
             // Don't handle log or categorize events, they don't indicate a change of wikipages
             return;

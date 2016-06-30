@@ -1,5 +1,6 @@
 package org.dbpedia.extraction.destinations
 
+import org.dbpedia.extraction.live.helper.RCStatisticsLogger
 import org.slf4j.LoggerFactory
 
 import scala.collection.Seq
@@ -33,6 +34,7 @@ class LoggerDestination(pageID: Long, pageTitle: String) extends LiveDestination
 
   override def close = {
     val total = addedTriples + unmodifiedTriples
+    RCStatisticsLogger.addTripleChanges(pageTitle, addedTriples, deletedTriples, unmodifiedTriples)
     logger.info("Page with ID:" + pageID + " produced " + total +
       " Triples (A:" + addedTriples + "/D:" + deletedTriples + "/U:" + unmodifiedTriples +
       ") in " + (System.currentTimeMillis - now) + "ms. (Title: " + pageTitle + ")")
