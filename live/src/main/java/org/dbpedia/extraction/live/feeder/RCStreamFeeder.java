@@ -48,6 +48,8 @@ public class RCStreamFeeder extends Feeder implements IOCallback {
         // use baseURI without protocol as room to subscribe to
         this.room = room;
 
+        RCStatisticsLogger.invalidateUnfinishedEntries();
+
         // Set Logger preferences for Socket.io
         java.util.logging.Logger sioLogger = java.util.logging.Logger.getLogger("io.socket");
         sioLogger.setLevel(Level.INFO);

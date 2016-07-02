@@ -34,7 +34,9 @@ public class RCStatisticsLogger {
     }
 
     public static void invalidateUnfinishedEntries(){
-        String update = "UPDATE dbpedia_live_cache.rcstatistics SET added_triples=-1, deleted_triples=-1, unmodified_triples=-1";
+        String update = "UPDATE dbpedia_live_cache.rcstatistics SET added_triples=-1, deleted_triples=-1, unchanged_triples=-1 " +
+            "WHERE added_triples IS NULL";
+        JDBCUtil.execPrepared(update, new String[]{});
     }
 
     public static void saveFullInformationSet(JsonObject rcEvent){
