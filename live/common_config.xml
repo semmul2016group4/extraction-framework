@@ -381,27 +381,6 @@
                 </produces>
             </extractor>
 
-            <extractor name="org.dbpedia.extraction.mappings.ContributorExtractor" status="ACTIVE">
-                <produces>
-                    <matchPattern type="EXACT">
-                        <s></s>
-                        <p>DBM_CONTRIBUTOR</p>
-                        <o></o>
-                    </matchPattern>
-                    <matchPattern type="EXACT">
-                        <s></s>
-                        <p>DB_CONTRIBUTOR_ID</p>
-                        <o></o>
-                    </matchPattern>
-                    <matchPattern type="STARTSWITH" pexact="true">
-                        <s></s>
-                        <p>DB_CONTRIBUTOR</p>
-                        <o></o>
-                    </matchPattern>
-
-                </produces>
-            </extractor>
-
             <extractor name ="org.dbpedia.extraction.mappings.ImageExtractor" status="PURGE">
                 <produces>
                     <matchPattern type="EXACT">
