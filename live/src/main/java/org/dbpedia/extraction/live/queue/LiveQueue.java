@@ -41,6 +41,7 @@ public class LiveQueue {
             counts.put(item.getPriority(), getPrioritySize(item.getPriority()) + 1);
             queue.add(item);
         }
+        System.out.println("LiveQueue Length is: " + queue.size());
     }
 
     public static LiveQueueItem take() throws InterruptedException {
