@@ -55,8 +55,8 @@ public class RCStreamFeeder extends Feeder implements IOCallback {
         }
 
         // Set Logger preferences for Socket.io
-        java.util.logging.Logger sioLogger = java.util.logging.Logger.getLogger("io.socket");
-        sioLogger.setLevel(Level.WARNING);
+        // java.util.logging.Logger sioLogger = java.util.logging.Logger.getLogger("io.socket");
+        // sioLogger.setLevel(Level.WARNING);
 
         try {
             connect();
