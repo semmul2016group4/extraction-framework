@@ -366,7 +366,7 @@
                 </produces>
             </extractor>
 
-            <extractor name ="org.dbpedia.extraction.mappings.MediaExtractor" status="ACTIVE">
+            <extractor name ="org.dbpedia.extraction.mappings.MediaExtractor" status="PURGE">
                 <produces>
                     <matchPattern type="EXACT">
                         <s></s>
